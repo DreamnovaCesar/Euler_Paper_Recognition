@@ -14,7 +14,7 @@ This repository contains supplementary information for our paper titled *"Discov
 
 ### PDFs
 
-- **`Structural.pdf`**: This document presents the structural and topological analysis of the 66 objects used in this research. It also details the algorithm used to extract the shape descriptors, Enclosing Surface and Volume.
+- **`Misc.pdf`**: This document presents the structural and topological analysis of the 66 objects used in this research. It also details the algorithm used to extract shape descriptors, enclosing surface, and volume. Additionally, a figure illustrating the presence of multicollinearity in this problem is included.
 
 - **`Tables_omp.pdf`**: This file includes LaTeX tables of formulas derived from the Orthogonal Matching Pursuit (OMP) regression model. It showcases some of the most significant formulas obtained through this method, which was the most effective in our study.
 
