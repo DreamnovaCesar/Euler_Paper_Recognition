@@ -14,11 +14,17 @@ This repository contains supplementary information for our paper titled *"Discov
 
 ### PDFs
 
-- **`Misc.pdf`**: This document presents the structural and topological analysis of the 66 objects used in this research. It also details the algorithm used to extract shape descriptors, enclosing surface, and volume. Additionally, a figure illustrating the presence of multicollinearity in this problem is included.
+- **`Algorithm.pdf`**: This document details an algorithm that iterates over every voxel in a 3D binary image to compute two fundamental shape descriptors: volume (total count of 1-voxels) and enclosing surface (sum of exposed faces of each voxel).  
 
-- **`Tables_omp.pdf`**: This file includes LaTeX tables of formulas derived from the Orthogonal Matching Pursuit (OMP) regression model. It showcases some of the most significant formulas obtained through this method, which was the most effective in our study.
+- **`Heatmap.pdf`**: This analysis reveals a critical issue of multicollinearity among predictor variables, which arises when independent variables are highly correlated. Multicollinearity hinders traditional regression models from accurately estimating the individual effects of each predictor, leading to unstable and unreliable coefficient estimates.  
 
-- **`Tables_result.pdf`**: This document provides a comparison between state-of-the-art methods and our approach. It highlights that our method achieved 100% accuracy. It includes comparisons of 12 objects from Experiment 3 (out of the 66 voxelized objects) and 20 tumor samples from Experiment 4 using the BraTS 2020 dataset.
+- **`Structural.pdf`**: This report provides an in-depth analysis of structural descriptors, including object dimensions, Euler characteristics, and the number of cavities and tunnels in 66 3D objects. These descriptors are crucial for understanding the spatial complexity and topology of the objects, which significantly impact the modeling and analysis of 3D structures.  
+
+- **`Tables_omp.pdf`**: This file contains LaTeX-formatted tables presenting formulas derived from the Orthogonal Matching Pursuit (OMP) regression model. It highlights the most significant formulas obtained through this method, which proved to be the most effective in our study.  
+
+- **`Tables_result_66.pdf`**: This document presents multiple tables comparing state-of-the-art methods with our approach for the 66 voxelized objects analyzed in the experiment. The results confirm identical values for shape descriptors, simplexes, and tetravoxels.  
+
+- **`Tables_result_BraTS.pdf`**: This file provides a comprehensive comparative analysis from Experiment 4, which evaluated medical images from the BraTS 2020 dataset. The results consistently demonstrate that our method achieved 100% accuracy in extracting shape descriptors.  
 
 ### CSV Files
 
